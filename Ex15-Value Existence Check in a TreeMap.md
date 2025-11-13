@@ -1,27 +1,49 @@
-# Ex15 Value Existence Check in a TreeMap
-## DATE:
-## AIM:
+Ex15 Value Existence Check in a TreeMap
+DATE:
+
+11-11-2025
+
+AIM:
+
 To write a Java program that checks whether a given value exists in a TreeMap.
 
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+Algorithm
 
-## Program:
-```
+Create a TreeMap with key–value pairs.
+
+Use containsValue() to check if the value exists.
+
+Display the result.
+
+Program:
 /*
-Program to checks whether a given value exists in a TreeMap.
-Developed by: 
-RegisterNumber:  
+Program to check whether a given value exists in a TreeMap.
+Developed by: Naresh P.S.
+RegisterNumber: 212223040127
+Date: 11-11-2025
 */
-```
 
-## Output:
+import java.util.*;
 
+public class TreeMapValueCheck {
+    public static void main(String[] args) {
+        TreeMap<Integer, String> map = new TreeMap<>();
+        map.put(1, "Apple");
+        map.put(2, "Banana");
+        map.put(3, "Cherry");
 
+        String value = "Banana";
 
-## Result:
+        if (map.containsValue(value))
+            System.out.println(value + " exists in the TreeMap.");
+        else
+            System.out.println(value + " does NOT exist in the TreeMap.");
+    }
+}
+
+Output:
+Banana exists in the TreeMap.
+
+Result:
+
 Thus, the program successfully checks whether a specified value exists in a TreeMap using the containsValue() method.
