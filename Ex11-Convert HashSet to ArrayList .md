@@ -1,13 +1,10 @@
-Ex11 Convert HashSet to ArrayList in Java
-DATE:
+## Ex11 Convert HashSet to ArrayList in Java
 
-11-11-2025
-
-AIM:
+## AIM:
 
 To convert a collection of distinct integers stored in a HashSet into an ArrayList and display its contents.
 
-Algorithm
+## Algorithm
 
 Create a HashSet and insert elements.
 
@@ -17,13 +14,13 @@ Add all elements from the HashSet to ArrayList.
 
 Display the ArrayList.
 
-Program:
-/*
+## Program:
+```
 Program to convert a collection of distinct integers stored in a HashSet into an ArrayList and display its contents.
 Developed by: Naresh P.S.
 RegisterNumber: 212223040127
 Date: 11-11-2025
-*/
+
 
 import java.util.*;
 
@@ -40,10 +37,11 @@ public class HashSetToArrayList {
         System.out.println("ArrayList elements: " + list);
     }
 }
+```
 
-Output:
+## Output:
 ArrayList elements: [20, 40, 10, 30]
 
-Result:
+## Result:
 
 The program successfully converts a collection of distinct integers stored in a HashSet into an ArrayList.
